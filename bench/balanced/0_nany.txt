@@ -1,0 +1,5 @@
+NUM_INPUT 2        
+MODE 0        
+INPUT0 -1 -1 -1  0 0  0  1  1  1
+INPUT1 -1  0  1 -1 0  1 -1  0  1
+OUTPUT  1  1  0  1 0 -1  0 -1 -1

@@ -1,0 +1,49 @@
+**********************************************
+
+This program is developed by Sung-Yun Lee
+
+Any question about the program is welcome
+
+Contact: syun.lee@postech.ac.kr
+
+**********************************************
+
+
+
+==[How to run]========================================================================================================
+
+TQM.exe -input [benchName] -output [outFile] | tee [logFile]
+
+ (Example) -----------------------------------------------------------------------------------------------------------
+
+    [benchName] : ./bench/xxx/xxx.txt
+    [outFile]   : ./output/xxx/xxx.out
+    [logFIle]   : ./log/xxx/xxx.log
+
+    ./TQM.exe -input ./bench/balanced/0_cons.txt -output ./output/balanced/0_cons.out | tee ./log/balanced/0_cons.log
+    
+    or
+
+    ./TQM.exe -input ./bench/balanced/0_cons.txt -output ./output/balanced/0_cons.out > ./log/balanced/1_cons.log
+
+----------------------------------------------------------------------------------------------------------------------
+* [benchName] and [outFile] are necessary!
+
+
+
+==[Notice]============================================================================================================
+
+You can make new bench with the same format of given bench.
+The format is described as follows:
+
+----------------------------------------------------------------------------------------------------------------------
+
+NUM_INPUT X      # Number of input variable
+MODE X           # If the ternary logic is balanced, mode becomes 0. If it is unbalanced, mode becomes 1
+INPUTi           # Input values of the i-th input variable in truth table
+INPUTj           # Input values of the j-th input variable in truth table
+...
+OUTPUT           # Output values of the truth table
+
+----------------------------------------------------------------------------------------------------------------------
+* More information is described in user guide pdf file (UserGuide.pdf)
