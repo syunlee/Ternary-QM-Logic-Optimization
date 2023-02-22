@@ -1,14 +1,19 @@
 **********************************************
-This program is developed by Sung-Yun Lee
-Any question about the program is welcome
+This program is developed by Sung-Yun Lee.
+Any question about the program is welcome.
 Contact: syun.lee@postech.ac.kr
 Web:     http://csdl.postech.ac.kr
 **********************************************
 
 [Related paper]
-Titile: A Logic Synthesis Methodology for Low-Power Ternary Logic Circuits
-Authors: S.Kim, S.-Y.Lee, S.Park, K.R.Kim, and S.Kang
-Journal: IEEE Transactions on Transactions on Circuits and Systems I: Regular Papers (TCAS-I), 2020
+[1]
+Title: Ternary Logic Synthesis with Modified Quine-McCluskey Algorithm
+Authors: S.-Y.Lee, S.Kim and S.Kang
+Conference: IEEE 49th International Symposium on Multiple-Valued Logic (ISMVL), 2019.
+[2]
+Title: A Logic Synthesis Methodology for Low-Power Ternary Logic Circuits
+Authors: S.Kim, S.-Y.Lee, S.Park, K.R.Kim and S.Kang
+Journal: IEEE Transactions on Transactions on Circuits and Systems I: Regular Papers (TCAS-I), 2020.
 
 
 ==[How to run]========================================================================================================
